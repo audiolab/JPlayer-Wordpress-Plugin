@@ -1,0 +1,101 @@
+div.jp-single-player {
+	color: #666;
+}
+div.jp-interface {
+	position: relative;
+	background-color:#fff;
+	width:60px;
+	height:20px;
+	border:0px;
+}
+div.jp-single-player div.jp-interface {
+	border-bottom:none;
+}
+
+div.jp-interface ul.jp-controls {
+	list-style-type:none;
+	padding:0;
+	margin: 0;
+}
+div.jp-interface ul.jp-controls li {
+	position: absolute;
+}
+div.jp-interface ul.jp-controls button, .jplayer_buffer {
+	position: absolute;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+button.jp-play,
+button.jp-pause {
+	top:0px;
+	width:16px;
+	height:16px;
+}
+div.jp-single-player button.jp-play,
+div.jp-single-player button.jp-pause {
+	left:0px;
+}
+
+.jplayer_buffer {
+	background: url("images/sound_loader.gif");
+	top: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+button{
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+*{
+	outline: none;
+}
+button.jp-play {
+	background: url("images/player.png") 0 0 no-repeat;
+}
+button.jp-play:hover {
+
+}
+button.jp-pause {
+	background: url("images/player.png") -32px 0px no-repeat;
+	display: none;
+}
+button.jp-pause:hover {
+}
+button.jp-stop {
+	top:0px;
+	background: url("images/player.png") -16px 0px no-repeat;
+	width:16px;
+	height:16px;
+}
+div.jp-single-player button.jp-stop {
+	left:20px;
+}
+
+button.jp-stop:hover {
+
+}
+
+#sound_download{
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url("images/player.png") -48px 0px no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 46px;
+	height: 16px;
+	width: 16px;
+}
+
+div.jp-play-time{
+	
+	font-size:1em;
+font-style:oblique;
+position:absolute;
+top:0px;
+width:122px;
+left: 75px;
+}
+
+
